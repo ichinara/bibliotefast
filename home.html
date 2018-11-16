@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+<head>
+    <title>Cadastro do Exemplar</title>
+</head>
+{% block body_block %}
+
+<header>
+        <div class="ui left vertical inverted thin sidebar menu visible" style="background-color: #120a18">
+                <div class="item">
+                        <a class="ui logo icon image" href="/">
+                          <img src="~/../iconelivro.png"></a>
+                        </div>
+                        </a>
+                <a class="item">Cadastro</a>
+                <a class="item">Empréstimo</a>
+                <a class="item">Consultar</a>
+                <a class="item">Cadastro</a>
+                <a class="item">Pagamentos</a>
+                <a class="item">Meu Perfil</a>
+                </div>
+
+</header>
+
+
+<h1>
+	Bem vindo ao Bibliotefast
+	</h1>
+
+<section class="ui container">
+	
+        
+	<article class="ui grid">
+	  <div class="three wide column"></div>
+
+
+			<div class="ui statistics" id="stats">
+			  <div class="statistic">
+				<div class="value">
+				  22
+				</div>
+				<div class="label">
+				  Exemplares Disponíveis
+				</div>
+			  </div>
+			  <div class="statistic">
+				<div class="value">
+				  50
+				</div>
+				<div class="label">
+				  Exemplares Emprestados
+				</div>
+			  </div>
+			  <div class="statistic">
+				<div class="value">
+				  0
+				</div>
+				<div class="label">
+				  Exemplares Extraviados
+				</div>
+			</div>
+	</div>	
+			  	  <div class="six wide column"></div>
+			<div class="ui statistics" id="stats">
+			  <div class="statistic">
+				<div class="value">
+				  22
+				</div>
+				<div class="label">
+				  Usuários
+				</div>
+			  </div>
+			  <div class="red statistic">
+				<div class="value">
+				  0
+				</div>
+				<div class="label">
+				  Devedores</div>
+
+
+{%endblock body_block%}}

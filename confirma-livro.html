@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+<head>
+    <title>Cadastro do Exemplar</title>
+</head>
+
+{% block body_block %}
+
+<header>
+
+        <div class="ui left vertical inverted thin sidebar menu visible" style="background-color: #120a18">
+                <div class="item">
+                        <a class="ui logo icon image" href="/">
+                          <img src="~/../iconelivro.png"></a>
+                        </div>
+                        </a>
+                <a class="item">Cadastro</a>
+                <a class="item">Empréstimo</a>
+                <a class="item">Consultar</a>
+                <a class="item">Cadastro</a>
+                <a class="item">Pagamentos</a>
+                <a class="item">Meu Perfil</a>
+                </div>
+
+</header>
+
+    <h1>
+          O quê?
+        </h1>
+
+    <section class="ui container">
+        <article class="ui grid">
+          <div class="two wide column"></div>
+          <div class="twelve wide column" id="margem">
+
+    
+            <form class="ui fluid form">
+              <div class="field">
+                <label>Nome/Cod.Barras:</label>
+                <input type="text">
+              </div>
+              
+              <div class="field">
+                <label>Categoria:</label>
+                <input type="text">
+              </div>
+
+{% block body_block %}
+
+</html>
+
