@@ -1,7 +1,10 @@
 <!--{% extends 'base.html' %}
 {% load staticfiles %}
-{%endblock body_block%}-->
 
+{% block body_block %}-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="~/../semantic/dist/semantic.css">
@@ -20,7 +23,7 @@
 <header>
 
         <div class="ui left vertical inverted thin sidebar menu visible" style="background-color: #120a18">
-                <div class="item">
+                <div class="item">  
                         <a class="ui logo icon image" href="/">
                           <img src="~/../iconelivro.png"></a>
                         </div>
@@ -36,26 +39,68 @@
 </header>
 
 <body>
-    <h1>
-          Quem?
-        </h1>
+
+    <section class="ui container">
+        <article class="ui grid">
+        <div class="ui three column grid">
+        <div class="column">
+            <img class="ui medium rounded image" src="C:\Users\Ichinara\Documents\Bibliotefast\semantic\examples\assets\images\wireframe\image-square.png">
+            <h1>
+                CLinspector
+                </h1>
+
+        </div></article>
+    </section>
 
     <section class="ui container">
         <article class="ui grid">
           <div class="two wide column"></div>
           <div class="twelve wide column" id="margem">
 
-    
             <form class="ui fluid form">
               <div class="field">
-                <label>Usuário:</label>
-                <input type="text">
-              </div>
-              
-              <div class="field">
-                <label>Senha:</label>
+                <label>Nome Completo:</label>
                 <input type="text">
               </div>
 
-    </body>
-</html>
+
+            <form class="ui fluid form">
+              <div class="field">
+                <label>Nasceu em:</label>
+                <input type="text">
+              </div>
+
+
+            <form class="ui fluid form">
+              <div class="field">
+                <label>Telefone:</label>
+                <input type="text">
+              </div>
+
+            <form class="ui fluid form">
+              <div class="field">
+                <label>Endereço:</label>
+                <input type="text">
+
+                <label>nº:</label>
+                <input type="text">
+              </div>
+
+
+            <form class="ui fluid form">
+              <div class="field">
+                <label>Complemento:</label>
+                <input type="text">
+              </div>
+
+
+            <form class="ui fluid form">
+              <div class="field">
+                <label>CPF:</label>
+                <input type="text">
+              </div>
+        </article>
+</section>
+
+<!--
+{%endblock body_block%}-->
